@@ -1,0 +1,35 @@
+/* FAZENDO AS CONFIGURAÇÕES INDIVIDUAIS DE TODOS OS COMPONENTES DA PAGINA*/
+body{
+    background-color: rgb(77, 77, 230); /*CONFIGURA A COR DE FUNDO*/
+    font: normal 15pt Arial; /*DETERMINA A FONTE GLOBAL DA PAGINA*/
+
+}
+
+header{
+    color: white; /* DEFININDO A COR DA FONTE NO TÍTULO COMO BRANCA */
+    text-align: center; /* CENTRALIZA O TEXTO NO MEIO DA TELA */
+}
+
+section{
+    /*DETERMINA A COR BRANCA COMO FUNDO DA SECTION*/
+    background-color: white; 
+    /*DETERMINA O ARREDONDAMENTO DA BORDA DEIXA ELA MAIS ARREDONDADA*/
+    border-radius: 10px; 
+    /*AUMENTAR O ESPAÇO NA ALTURA DA SECTION*/
+    padding: 15px; 
+    /*DETERMINA A LARGURA FIXA EM 500PX */
+    width: 500px; 
+    /* CENTRALIZA A SECTION NO MEIO DA TELA */
+    margin: auto; 
+    /* COLOCANDO UMA SOMBRA NA SECTION NA COR PRETA - 5px DESLOCAMENTO LATERAL, 5px DESLOCAMENTO VERTICAL, 10px ESPALHAMENTO */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363); 
+}
+div{
+    text-align: center;
+    padding: 5px;
+}
+footer{
+    color: white; /* DEFININDO A COR DA FONTE NO RODAPÉ COMO BRANCA */
+    text-align: center; /* CENTRALIZA O TEXTO NO MEIO DA TELA */
+    font-style: italic; /* DETERMINA QUE A LETRA DO RODAPÉ SERÁ ITALIC */
+}
